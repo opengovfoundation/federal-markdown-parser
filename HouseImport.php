@@ -38,64 +38,78 @@ class HouseImport{
 	}
 
 	protected function convertChildren($node, $index){
+		$nodeList = $node->xpath('section');
+		$mdString = '';
 
-		$mdString = "";
+		foreach($nodeList as $nodes){
+			$section = new Structure('section');
+			$section->level(0);
 
-		$nodes = $node->xpath($this->structure[$index]);
-		$quoted = $node->xpath('quoted-block');
-
-		if(count($nodes) == 0){
-			$nodes = $node->xpath('quoted-block');
-			
-			if(count($nodes) == 0){
-				return '';
-			}else{
-				$raw = strip_tags($nodes[0]->asXML());
-				$raw = preg_replace('/^(\s)+/m', str_repeat(' ', $index * 2) . "  $0* ", $raw);
-				return "\n\n" . $raw . "\n\n";
-			}
+			$section->simplexml($nodes);
+			$section->parseSelf();
+			$mdString .= $section->toMarkdown();
 		}
 
-		foreach($nodes as $node){
-			$nodeString = "";
+		// $mdString = "";
 
-			if($index == 0){
-				$nodeString .= "\n";
-			}
+		// $nodes = $node->xpath($this->structure[$index]);
+		// $quoted = $node->xpath('quoted-block');
 
-			$header = $node->header;
-			if(isset($header[0]) && $index == 0){
-				$header = '__' . $header[0] . '__';
-			}
-			$enum = $node->enum;
-			$text = $node->text;
-
-			$nodeString .= str_repeat(' ', $index * 2) . "* " . str_replace('.', '\.', $enum[0]) . " " . $header;
+		// if(count($nodes) == 0){
+		// 	$nodes = $node->xpath('quoted-block');
 			
-			if(isset($text[0])){
+		// 	if(count($nodes) == 0){
+		// 		return '';
+		// 	}else{
+		// 		$raw = strip_tags($nodes[0]->asXML());
+		// 		echo $this->count_beg_chars(ltrim($raw, "\n"), ' ') . " spaces at the beginning of the quoted block\n";
+		// 		file_put_contents('quoted.txt', $raw);
 
-				$attributes = $text->attributes();
+		// 		$raw = preg_replace('/^(\s)+/m', str_repeat(' ', $index * 2) . "  $0* ", $raw);
+		// 		return "\n\n" . $raw . "\n\n";
+		// 	}
+		// }
+
+		// foreach($nodes as $node){
+		// 	$nodeString = "";
+
+		// 	if($index == 0){
+		// 		$nodeString .= "\n";
+		// 	}
+
+		// 	$header = $node->header;
+		// 	if(isset($header[0]) && $index == 0){
+		// 		$header = '__' . $header[0] . '__';
+		// 	}
+		// 	$enum = $node->enum;
+		// 	$text = $node->text;
+
+		// 	$nodeString .= str_repeat(' ', $index * 2) . "* " . str_replace('.', '\.', $enum[0]) . " " . $header;
+			
+		// 	if(isset($text[0])){
+
+		// 		$attributes = $text->attributes();
 				
-				if($index <= 2){
-					$nodeString .= "\n";
-					$nodeString .= str_repeat(' ', ($index + 1) * 2) . "*";
-				}
+		// 		if($index <= 2){
+		// 			$nodeString .= "\n";
+		// 			$nodeString .= str_repeat(' ', ($index + 1) * 2) . "*";
+		// 		}
 
-				$textXML = $text->asXML();
-				$textXML = preg_replace('/<quote>(\w+)<\/quote>/', '`$1`', $textXML);
-				$textXML = preg_replace('/&#x\d+;/', '', $textXML);
-				$textString = strip_tags($textXML);
-				$nodeString .= " " . $textString . "\n";	
-			}else{
-				$nodeString .= "\n";
-			}
+		// 		$textXML = $text->asXML();
+		// 		$textXML = preg_replace('/<quote>(\w+)<\/quote>/', '`$1`', $textXML);
+		// 		$textXML = preg_replace('/&#x\d+;/', '', $textXML);
+		// 		$textString = strip_tags($textXML);
+		// 		$nodeString .= " " . $textString . "\n";	
+		// 	}else{
+		// 		$nodeString .= "\n";
+		// 	}
 			
-			$childrenString = $this->convertChildren($node, $index + 1);
+		// 	$childrenString = $this->convertChildren($node, $index + 1);
 
-			$nodeString .= $childrenString;
+		// 	$nodeString .= $childrenString;
 
-			$mdString .= $nodeString;	
-		}
+		// 	$mdString .= $nodeString;	
+		// }
 
 		return $mdString;
 	}
@@ -103,6 +117,18 @@ class HouseImport{
 	protected function dd()
 	{
 		array_map(function($x) { var_dump($x); }, func_get_args()); die;
+	}
+
+	protected function count_beg_chars($string, $char){
+		$i = 0;
+		echo "Starts with |" . $string{$i} . "|\n";
+
+		while($string{$i} == $char){
+			echo "|" .$string{$i} . "| ?= |" . $char . "|\n";
+			$i++;
+		}
+
+		return $i;
 	}
 
 }

@@ -1,4 +1,6 @@
 <?php
+	require_once('Element.php');
+	require_once('Structure.php');
 	require_once('HouseImport.php');
 
 	$filename = $argv[1];
