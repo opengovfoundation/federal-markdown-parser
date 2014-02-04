@@ -3,7 +3,9 @@
 
 	$filename = $argv[1];
 
-	
+	//Lint the file before processing
+	exec('xmllint --format ' . $filename . ' --output ' . $filename );
+
 	$xml = file_get_contents($filename);
 
 	$houseImport = new HouseImport($xml);
