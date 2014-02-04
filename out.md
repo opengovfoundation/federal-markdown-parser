@@ -101,116 +101,116 @@
     * Chapter 33 of the Internal Revenue Code of 1986 is amended by adding after subchapter C the following new subchapter:
 
 
-> 
->           
->             D
->             Transportation by Freight and Highway
->             
->               Sec. 4286. Imposition of tax.
->             
->             
->               4286.
->               Imposition of tax
->               
->                 (a)
->                 In general
->                 There is hereby imposed upon taxable ground transportation of property within the United States a tax equal to 1 percent of the amount paid for such transportation.
->               
->               
->                 (b)
->                 By whom paid
->                 
->                   (1)
->                   In general
->                   Except as provided by paragraph (2), the tax imposed by subsection (a) shall be paid—
->                   
->                     (A)
->                     by the person making the payment subject to tax, or
->                   
->                   
->                     (B)
->                     in the case of transportation by a related person, by the person for whom such transportation is made.
->                   
->                 
->                 
->                   (2)
->                   Payments made outside the United States
->                   If a payment subject to tax under subsection (a) is made outside the United States and the person making such payment does not pay such tax, such tax—
->                   
->                     (A)
->                     shall be paid by the person to whom the property is delivered in the United States after the final segment of transportation in the United States, and
->                   
->                   
->                     (B)
->                     shall be collected by the person furnishing the last segment of such transportation.
->                   
->                 
->                 
->                   (3)
->                   Determinations of amounts paid in certain cases
->                   For purposes of this section, rules similar to the rules of section 4271(c) shall apply.
->                 
->               
->               
->                 (c)
->                 Transportation by related persons
->                 In the case of transportation of property by the taxpayer or a person related to the taxpayer, the fair market value of such transportation shall be the amount which would be paid for transporting such property if such property were transported by an unrelated person, determined on an arms’ length basis.
->               
->               
->                 (d)
->                 Definitions
->                 For purposes of this subchapter—
->                 
->                   (1)
->                   Taxable ground transportation
->                   
->                     (A)
->                     In general
->                     The term taxable ground transportation means transportation of property by—
->                     
->                       (i)
->                       freight rail, or
->                     
->                     
->                       (ii)
->                       commercial motor vehicle (as defined in section 31101(1) of title 49, United States Code) for a distance of more than 50 miles.
->                     
->                   
->                   
->                     (B)
->                     Passenger baggage excluded
->                     For purposes of subparagraph (A), the term property does not include baggage accompanying a passenger traveling on an established line.
->                   
->                 
->                 
->                   (2)
->                   Related person
->                   A person (hereinafter in this paragraph referred to as the related person) is related to any person if—
->                   
->                     (A)
->                     the related person bears a relationship to such person specified in section 267(b) or 707(b)(1), or
->                   
->                   
->                     (B)
->                     the related person and such person are engaged in trades or businesses under common control (within the meaning of subsections (a) and (b) of section 52).
->                   
->                   For purposes of the preceding sentence, in applying section 267(b) and 707(b)(1), 10 percent shall be substituted for 50 percent.
->                 
->               
->               
->                 (e)
->                 Transfer of amounts equivalent to tax to national freight mobility infrastructure fund
->                 There are hereby appropriated to the National Freight Mobility Infrastructure Fund amounts equivalent to the taxes received in the Treasury under subsection (a).
->               
->               
->                 (f)
->                 Exemption for United States and possessions and State and local governments
->                 The tax imposed by subsection (a) shall not apply to the transportation of property purchased for the exclusive use of the United States, or any State or political subdivision thereof.
->               
->             
->           
->           .
->         
+      
+          
+            * D
+                  * Transportation by Freight and Highway
+                  
+              * Sec. 4286. Imposition of tax.
+                  
+            
+              * 4286.
+                    * Imposition of tax
+                    
+                * (a)
+                      * In general
+                      * There is hereby imposed upon taxable ground transportation of property within the United States a tax equal to 1 percent of the amount paid for such transportation.
+                    
+              
+                * (b)
+                      * By whom paid
+                      
+                  * (1)
+                        * In general
+                        * Except as provided by paragraph (2), the tax imposed by subsection (a) shall be paid—
+                        
+                    * (A)
+                          * by the person making the payment subject to tax, or
+                        
+                  
+                    * (B)
+                          * in the case of transportation by a related person, by the person for whom such transportation is made.
+                        
+                
+                
+                  * (2)
+                        * Payments made outside the United States
+                        * If a payment subject to tax under subsection (a) is made outside the United States and the person making such payment does not pay such tax, such tax—
+                        
+                    * (A)
+                          * shall be paid by the person to whom the property is delivered in the United States after the final segment of transportation in the United States, and
+                        
+                  
+                    * (B)
+                          * shall be collected by the person furnishing the last segment of such transportation.
+                        
+                
+                
+                  * (3)
+                        * Determinations of amounts paid in certain cases
+                        * For purposes of this section, rules similar to the rules of section 4271(c) shall apply.
+                      
+              
+              
+                * (c)
+                      * Transportation by related persons
+                      * In the case of transportation of property by the taxpayer or a person related to the taxpayer, the fair market value of such transportation shall be the amount which would be paid for transporting such property if such property were transported by an unrelated person, determined on an arms’ length basis.
+                    
+              
+                * (d)
+                      * Definitions
+                      * For purposes of this subchapter—
+                      
+                  * (1)
+                        * Taxable ground transportation
+                        
+                    * (A)
+                          * In general
+                          * The term taxable ground transportation means transportation of property by—
+                          
+                      * (i)
+                            * freight rail, or
+                          
+                    
+                      * (ii)
+                            * commercial motor vehicle (as defined in section 31101(1) of title 49, United States Code) for a distance of more than 50 miles.
+                          
+                  
+                  
+                    * (B)
+                          * Passenger baggage excluded
+                          * For purposes of subparagraph (A), the term property does not include baggage accompanying a passenger traveling on an established line.
+                        
+                
+                
+                  * (2)
+                        * Related person
+                        * A person (hereinafter in this paragraph referred to as the related person) is related to any person if—
+                        
+                    * (A)
+                          * the related person bears a relationship to such person specified in section 267(b) or 707(b)(1), or
+                        
+                  
+                    * (B)
+                          * the related person and such person are engaged in trades or businesses under common control (within the meaning of subsections (a) and (b) of section 52).
+                        
+                  * For purposes of the preceding sentence, in applying section 267(b) and 707(b)(1), 10 percent shall be substituted for 50 percent.
+                      
+              
+              
+                * (e)
+                      * Transfer of amounts equivalent to tax to national freight mobility infrastructure fund
+                      * There are hereby appropriated to the National Freight Mobility Infrastructure Fund amounts equivalent to the taxes received in the Treasury under subsection (a).
+                    
+              
+                * (f)
+                      * Exemption for United States and possessions and State and local governments
+                      * The tax imposed by subsection (a) shall not apply to the transportation of property purchased for the exclusive use of the United States, or any State or political subdivision thereof.
+                    
+            
+          
+          * .
+              * 
 
   * (b) Credits or refunds to persons who collected certain taxes
     * Section 6415 of such Code is amended by striking or 4271 each place it appears and inserting 4271, or 4286.
@@ -223,26 +223,26 @@
   * Subchapter A of chapter 98 of the Internal Revenue Code of 1986 is amended by adding at the end the following new section:
 
 
-> 
->         
->           9512.
->           National Freight Mobility Infrastructure Fund
->           
->             (a)
->             Creation of Trust Fund
->             There is established in the Treasury of the United States a trust fund to be known as the National Freight Mobility Infrastructure Fund (hereinafter in this section referred to as the Fund) consisting of such amounts as may be appropriated or credited to such Fund as provided in this section or section 9602(b).
->           
->           
->             (b)
->             Transfers to the fund
->             There are hereby appropriated to the Fund amounts equivalent to taxes received in the Treasury under section 4286.
->           
->           
->             (c)
->             Expenditures from fund
->             Amounts in the Fund shall be made available to the Secretary of Transportation for each of the fiscal years 2014 to 2039, without further appropriation, for making expenditures to meet the obligations of the United States to carry out section 2 of the Freight Infrastructure Reinvestment Act of 2013, not more than 4 percent of which for any fiscal year may be used for administrative expenses.
->           
->         
->         .
->       
+    
+        
+          * 9512.
+              * National Freight Mobility Infrastructure Fund
+              
+            * (a)
+                * Creation of Trust Fund
+                * There is established in the Treasury of the United States a trust fund to be known as the National Freight Mobility Infrastructure Fund (hereinafter in this section referred to as the Fund) consisting of such amounts as may be appropriated or credited to such Fund as provided in this section or section 9602(b).
+              
+          
+            * (b)
+                * Transfers to the fund
+                * There are hereby appropriated to the Fund amounts equivalent to taxes received in the Treasury under section 4286.
+              
+          
+            * (c)
+                * Expenditures from fund
+                * Amounts in the Fund shall be made available to the Secretary of Transportation for each of the fiscal years 2014 to 2039, without further appropriation, for making expenditures to meet the obligations of the United States to carry out section 2 of the Freight Infrastructure Reinvestment Act of 2013, not more than 4 percent of which for any fiscal year may be used for administrative expenses.
+              
+        
+        * .
+          * 
 

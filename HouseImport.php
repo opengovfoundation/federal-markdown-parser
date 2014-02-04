@@ -51,7 +51,7 @@ class HouseImport{
 				return '';
 			}else{
 				$raw = strip_tags($nodes[0]->asXML());
-				$raw = preg_replace('/^/m', "> ", $raw);
+				$raw = preg_replace('/^(\s)+/m', str_repeat(' ', $index * 2) . "  $0* ", $raw);
 				return "\n\n" . $raw . "\n\n";
 			}
 		}
