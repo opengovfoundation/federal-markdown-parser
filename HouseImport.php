@@ -50,67 +50,6 @@ class HouseImport{
 			$mdString .= $section->toMarkdown();
 		}
 
-		// $mdString = "";
-
-		// $nodes = $node->xpath($this->structure[$index]);
-		// $quoted = $node->xpath('quoted-block');
-
-		// if(count($nodes) == 0){
-		// 	$nodes = $node->xpath('quoted-block');
-			
-		// 	if(count($nodes) == 0){
-		// 		return '';
-		// 	}else{
-		// 		$raw = strip_tags($nodes[0]->asXML());
-		// 		echo $this->count_beg_chars(ltrim($raw, "\n"), ' ') . " spaces at the beginning of the quoted block\n";
-		// 		file_put_contents('quoted.txt', $raw);
-
-		// 		$raw = preg_replace('/^(\s)+/m', str_repeat(' ', $index * 2) . "  $0* ", $raw);
-		// 		return "\n\n" . $raw . "\n\n";
-		// 	}
-		// }
-
-		// foreach($nodes as $node){
-		// 	$nodeString = "";
-
-		// 	if($index == 0){
-		// 		$nodeString .= "\n";
-		// 	}
-
-		// 	$header = $node->header;
-		// 	if(isset($header[0]) && $index == 0){
-		// 		$header = '__' . $header[0] . '__';
-		// 	}
-		// 	$enum = $node->enum;
-		// 	$text = $node->text;
-
-		// 	$nodeString .= str_repeat(' ', $index * 2) . "* " . str_replace('.', '\.', $enum[0]) . " " . $header;
-			
-		// 	if(isset($text[0])){
-
-		// 		$attributes = $text->attributes();
-				
-		// 		if($index <= 2){
-		// 			$nodeString .= "\n";
-		// 			$nodeString .= str_repeat(' ', ($index + 1) * 2) . "*";
-		// 		}
-
-		// 		$textXML = $text->asXML();
-		// 		$textXML = preg_replace('/<quote>(\w+)<\/quote>/', '`$1`', $textXML);
-		// 		$textXML = preg_replace('/&#x\d+;/', '', $textXML);
-		// 		$textString = strip_tags($textXML);
-		// 		$nodeString .= " " . $textString . "\n";	
-		// 	}else{
-		// 		$nodeString .= "\n";
-		// 	}
-			
-		// 	$childrenString = $this->convertChildren($node, $index + 1);
-
-		// 	$nodeString .= $childrenString;
-
-		// 	$mdString .= $nodeString;	
-		// }
-
 		return $mdString;
 	}
 
